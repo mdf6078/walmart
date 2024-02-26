@@ -1,0 +1,340 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.navgation {
+  display: flex;
+  justify-content: space-evenly;
+  height: 72px;
+  background-color: rgb(4, 79, 254);
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.walmartlogo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 48px;
+  width: 170px;
+}
+#hover:hover {
+  background-color: #004f9a;
+  border-radius: 25px;
+}
+.Department {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 48px;
+  width: 149px;
+}
+.allbox {
+  height: 20px;
+  width: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  /* margin: 2px; */
+}
+.DepartmentPrapagraph {
+  color: white;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.box {
+  height: 4px;
+  width: 4px;
+  border: 2px solid white;
+  margin: 2px auto;
+}
+
+.Services {
+  width: 113px;
+  height: 48px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.allcircal {
+  height: 20px;
+  width: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+.servicesparagrapg {
+  color: white;
+  font-size: 20px;
+  margin-left: 5px;
+}
+.circal {
+  height: 4px;
+  width: 4px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: 2px auto;
+}
+.search {
+  height: 48;
+  width: 700px;
+  display: flex;
+  border: none;
+  justify-content: space-evenly;
+}
+#input {
+  height: 38px;
+  width: 700px;
+  border: none;
+  border-radius: 15px;
+  font-size: 20px;
+}
+.searchButton {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(240, 226, 74);
+  border-radius: 50%;
+  border: none;
+
+  position: relative;
+  top: 4px;
+  right: 35px;
+}
+.wishlist {
+  color: white;
+  height: 40px;
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hurticon {
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+}
+.wishlistpara1 {
+  font-size: 12px;
+}
+.wishlistpara2 {
+  font-size: 18px;
+}
+.signin {
+  align-items: center;
+  color: white;
+  display: flex;
+  height: 48px;
+  width: 120px;
+  justify-content: center;
+}
+.user {
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+}
+.cart {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 70px;
+  color: white;
+}
+
+.shiping {
+  align-items: center;
+}
+.firstnav {
+  width: 100%;
+  color: white;
+  border-top: 1px solid white;
+  background-color: rgb(4, 79, 254);
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.phone {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  /* align-items: center; */
+}
+#yourhomelocation {
+  margin-right: 40px;
+}
+a {
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+}
+#anchor {
+  margin-left: 40px;
+}
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.content {
+  display: flex;
+  height: 850px;
+  width: 100%;
+  background-color: antiquewhite;
+}
+
+.contentbox1 {
+  border-radius: 20px;
+  height: 310px;
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 30px;
+  background-image: url("box1.png");
+  background-size: cover;
+  z-index: 1;
+}
+#footwere {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-left: 10px;
+  color: rgb(239, 163, 10);
+  font-weight: 700;
+}
+.contentbox2 {
+  background-image: url("box2.png");
+  background-size: cover;
+  border-radius: 20px;
+  position: absolute;
+  top: 470px;
+  height: 410px;
+  width: 300px;
+  z-index: 1;
+  margin-left: 30px;
+}
+.contentbox3 {
+  border-radius: 20px;
+  position: absolute;
+  background-image: url("box3.jpeg");
+  background-size: cover;
+  top: 600px;
+  left: 370px;
+  height: 280px;
+  width: 300px;
+  z-index: 1;
+}
+.contentbox4 {
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+.contentbox5 {
+  height: 300px;
+  width: 300px;
+  background-image: url(box4.webp);
+  background-size: cover;
+  position: relative;
+  left: 60px;
+  top: 20px;
+  border-radius: 20px;
+}
+.contentbox6 {
+  height: 280px;
+  width: 350px;
+  border-radius: 20px;
+  position: absolute;
+  top: 600px;
+  right: 450px;
+  background-image: url("box5.webp");
+  background-size: cover;
+}
+.contentbox7 {
+  height: 280px;
+  width: 350px;
+  border-radius: 20px;
+  position: absolute;
+  top: 600px;
+  right: 50px;
+  z-index: 1;
+  background-image: url("box6.webp");
+  background-size: cover;
+}
+.contentbox8 {
+  height: 150px;
+  width: 250px;
+  border-radius: 20px;
+  position: absolute;
+  top: 440px;
+  right: 50px;
+  z-index: 1;
+  background-image: url("box8.webp");
+  background-size: cover;
+}
+#anchorbox {
+  text-decoration: none;
+  color: rgb(255, 205, 55);
+  margin-left: 30px;
+  font-size: 30px;
+  z-index: 1;
+  font-weight: 700;
+}
+
+.footnav {
+  height: 144px;
+  display: flex;
+  background-color: #e6f1f6;
+  justify-content: center;
+}
+
+.feedback {
+  height: 144px;
+  width: 250px;
+  margin: 25px auto;
+}
+
+#feedinput {
+  margin-top: 10px;
+  border-radius: 25px;
+  display: flex;
+}
+
+.foternav2 {
+  height: 120px;
+  background-color: #004f9a;
+  text-align: center;
+}
+
+.footeranchortag1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+}
+
+#anchottagfooter {
+  display: flex;
+  margin: 10px;
+  margin-right: 5px;
+}
+#anchottagfooter:a {
+  margin: 5px auto;
+}
+.footernev2 {
+  display: flex;
+  height: 30px;
+  width: 100%;
+  color: #e6f1f6;
+  border-top: 0.5px solid white;
+  background-color: #004f9a;
+  align-items: center;
+  justify-content: center;
+}
+/* #copyrightpara {
+  text-align: center;
+} */

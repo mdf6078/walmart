@@ -1,0 +1,43 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  overflow-x: hidden;
+  background-color: beige;
+  height: 700px;
+  width: 1500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logainbox {
+  border-radius: 10px;
+  height: 500px;
+  width: 350px;
+  background-color: rgb(127, 193, 255);
+  text-align: center;
+}
+.lohainparagraph {
+  font-size: 30px;
+  margin-top: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.EmailphoneInput {
+  height: 30px;
+  width: 200px;
+  margin-top: 20px;
+  border-radius: 50px;
+  font-size: 15px;
+}
+#otpRequest {
+  color: rgb(85, 67, 67);
+  margin-top: 50px;
+}
+#createaccount {
+  position: relative;
+  bottom: -100px;
+  color: rgb(85, 67, 67);
+  text-decoration: none;
+}
